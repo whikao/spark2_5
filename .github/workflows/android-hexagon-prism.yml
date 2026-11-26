@@ -52,6 +52,8 @@ jobs:
                 -DBUILD_SHARED_LIBS=ON \
                 -DGGML_HEXAGON=ON \
                 -DGGML_VULKAN=ON \
+                -DGGML_VULKAN=ON \
+                -DVulkan_GLSLC_EXECUTABLE="$ANDROID_NDK_ROOT/shader-tools/linux-x86_64/glslc" \
                 -DGGML_OPENCL=OFF \
                 -DGGML_OPENMP=OFF \
                 -DGGML_LLAMAFILE=OFF \
