@@ -31,7 +31,7 @@ jobs:
             --platform linux/amd64 \
             -u "$(id -u):$(id -g)" \
             -v "$GITHUB_WORKSPACE:/workspace" \
-            ghcr.io/snapdragon-toolchain/arm64-android:v0.7 \
+            ghcr.io/snapdragon-toolchain/arm64-android:v0.8 \
             bash -lc '
               set -euo pipefail
               cd /workspace
